@@ -39,6 +39,14 @@ CMakeLists.txt linguist-vendored
 
 # Mark typical generated plugin registrant files as generated
 **/GeneratedPluginRegistrant.* linguist-generated
+**/generated_plugin_registrant.* linguist-generated
+**/generated-plugin-registry.* linguist-generated
+
+# Explicit runner folders (platform embedding native code)
+windows/runner/** linguist-vendored
+linux/runner/** linguist-vendored
+ios/Runner/** linguist-vendored
+macos/Runner/** linguist-vendored
 
 # Ensure Dart files are recognized as Dart (optional - usually not required)
 *.dart linguist-language=Dart
