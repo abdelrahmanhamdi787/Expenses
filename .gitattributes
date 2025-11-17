@@ -1,0 +1,44 @@
+# Instruct GitHub Linguist to ignore/platform-vendor native and generated files
+# so the repository is classified as Dart (Flutter) rather than C/C++.
+
+# Platform directories (native code tooling)
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# Build and generated artifacts
+build/** linguist-generated
+flutter_gen/** linguist-generated
+flutter_export_environment.sh linguist-generated
+
+# Gradle and wrapper files
+gradle/** linguist-vendored
+.gradle/** linguist-vendored
+gradlew linguist-vendored
+gradlew.bat linguist-vendored
+
+# C/C++/Objective-C sources used for platform embedding
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.mm linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Xcode project/Workspace generated files
+*.xcodeproj/** linguist-vendored
+*.xcworkspace/** linguist-vendored
+
+# Windows build artifacts
+*.sln linguist-vendored
+*.vcxproj linguist-vendored
+
+# Mark typical generated plugin registrant files as generated
+**/GeneratedPluginRegistrant.* linguist-generated
+
+# Ensure Dart files are recognized as Dart (optional - usually not required)
+*.dart linguist-language=Dart
