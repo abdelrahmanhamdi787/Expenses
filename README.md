@@ -12,11 +12,7 @@ Clean and simple interface
 
 Good starter project for learning Flutter basics
 
- Built With
 
-Flutter
-
-Dart
 
 🧑‍💻 Author
 
