@@ -1,17 +1,25 @@
-# expenses
+# Expenses
 
-A new Flutter project.
+A basic Flutter app for tracking daily expenses. Users can add new expenses with a title, amount, and date, and see all their transactions in a clear, organized list. It’s a simple project built to practice Flutter UI and state management.
 
-## Getting Started
+ Features
 
-This project is a starting point for a Flutter application.
+Add expenses with title, amount, and date
 
-A few resources to get you started if this is your first Flutter project:
+View all expenses in a list
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clean and simple interface
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Expenses" 
+Good starter project for learning Flutter basics
+
+ Built With
+
+Flutter
+
+Dart
+
+🧑‍💻 Author
+
+Abdelrahman Hamdi
+
+💼 Connect with me on LinkedIn
