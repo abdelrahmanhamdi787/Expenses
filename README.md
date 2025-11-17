@@ -22,5 +22,5 @@ Dart
 
 Abdelrahman Hamdi
 
-💼 Connect with me on LinkedIn
+💼 [Connect with me on LinkedIn](https://www.linkedin.com/in/abdelrahman-hamdi-672394320/)
 
